@@ -1,0 +1,28 @@
+{
+  "name": "testing-docker",
+  "version": "1.0.0",
+  "description": "a testing app",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyanime/testing-docker.git"
+  },
+  "keywords": [
+    "testing",
+    "app"
+  ],
+  "author": "anyanime",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anyanime/testing-docker/issues"
+  },
+  "homepage": "https://github.com/anyanime/testing-docker#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
